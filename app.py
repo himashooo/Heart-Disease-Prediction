@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("heart_disease_model.pkl")
+model = joblib.load("Heart_disease_model.pkl")
 model_columns = joblib.load("model_columns.pkl")
 
 # Page title
